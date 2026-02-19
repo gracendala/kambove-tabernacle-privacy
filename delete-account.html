@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suppression de compte - Kambove Tabernacle</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #1a1f2e;
+            color: #e5e7eb;
+            min-height: 100vh;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        .header { text-align: center; padding: 40px 20px; }
+        .header h1 { font-size: 2rem; color: #f4b860; margin-bottom: 10px; }
+        .header .app-name { font-size: 1.2rem; color: #9ca3af; }
+        .card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(255,255,255,0.1);
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 20px;
+        }
+        .card h2 { color: #f4b860; font-size: 1.25rem; margin-bottom: 16px; }
+        .card p { color: #d1d5db; margin-bottom: 12px; }
+        .card ul { list-style: none; padding-left: 0; }
+        .card ul li { color: #d1d5db; padding: 8px 0 8px 20px; position: relative; }
+        .card ul li::before { content: "•"; color: #f4b860; position: absolute; left: 0; }
+        .card ul li strong { color: #f4b860; }
+        .steps { counter-reset: step; }
+        .steps li { counter-increment: step; padding-left: 30px; }
+        .steps li::before { content: counter(step) "."; color: #f4b860; font-weight: bold; }
+        .warning { background: rgba(239,68,68,0.1); border-color: rgba(239,68,68,0.3); }
+        .footer { text-align: center; padding: 30px; color: #9ca3af; font-size: 0.875rem; }
+        a { color: #f4b860; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🗑️ Suppression de compte</h1>
+            <p class="app-name">Kambove Tabernacle — Éditeur : Hope Concept</p>
+        </div>
+        <div class="card">
+            <h2>Comment supprimer votre compte</h2>
+            <p>L'application <strong>Kambove Tabernacle</strong>, éditée par <strong>Hope Concept</strong>, vous permet de supprimer votre compte et toutes vos données personnelles directement depuis l'application.</p>
+        </div>
+        <div class="card">
+            <h2>📋 Étapes pour supprimer votre compte</h2>
+            <ol class="steps">
+                <li>Ouvrez l'application <strong>Kambove Tabernacle</strong></li>
+                <li>Appuyez sur l'icône <strong>⚙️ Paramètres</strong> en bas de l'écran</li>
+                <li>Faites défiler jusqu'à la section <strong>« Zone de danger »</strong></li>
+                <li>Appuyez sur <strong>« Supprimer mon compte »</strong></li>
+                <li>Confirmez la suppression dans la boîte de dialogue</li>
+            </ol>
+        </div>
+        <div class="card warning">
+            <h2>⚠️ Données supprimées</h2>
+            <p>La suppression est <strong>définitive et irréversible</strong>. Les données suivantes seront supprimées :</p>
+            <ul>
+                <li><strong>Votre compte utilisateur</strong> et adresse email</li>
+                <li><strong>Historique d'écoute</strong></li>
+                <li><strong>Téléchargements hors ligne</strong></li>
+                <li><strong>Messages de chat</strong></li>
+                <li><strong>Notifications lues</strong></li>
+                <li><strong>Rôles et permissions</strong></li>
+                <li><strong>Cantiques favoris</strong></li>
+            </ul>
+        </div>
+        <div class="card">
+            <h2>⏱️ Délai de traitement</h2>
+            <p>La suppression est <strong>immédiate</strong>. Aucune récupération n'est possible après confirmation.</p>
+        </div>
+        <div class="card">
+            <h2>📧 Contact</h2>
+            <p>Pour toute question : utilisez la page Contact dans l'application Kambove Tabernacle.</p>
+            <p><strong>Éditeur</strong> : Hope Concept</p>
+        </div>
+        <div class="footer">
+            <p>© 2025 Kambove Tabernacle — Hope Concept. Tous droits réservés.</p>
+        </div>
+    </div>
+</body>
+</html>
